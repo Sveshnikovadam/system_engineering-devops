@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# This script loops from 1 to 20 using a case statement for custom messages
+i=1
+while [ $i -le 20 ]
+do
+    echo "$i"
+    case $i in
+        4|9)
+            echo "bad luck"
+            ;;
+        8)
+            echo "good luck"
+            ;;
+    esac
+    i=$((i + 1))
+done
