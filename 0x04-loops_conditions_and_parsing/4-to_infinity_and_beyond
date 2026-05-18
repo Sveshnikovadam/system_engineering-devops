@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script loops infinitely to display "Best School" every 9 seconds
+while true
+do
+    echo "Best School"
+    sleep 9
+done
